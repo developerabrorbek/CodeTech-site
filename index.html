@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +10,77 @@
     <!-- Tailwindcss CND -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container mx-auto">
-            <div class="header__inner"></div>
+    <header class="header px-4">
+        <div class="container mx-auto max-w-[1440px]">
+            <div class="header__inner w-[100%] mt-11 flex items-center justify-between">
+                <a href="#" class="">
+                    <img src="./images/icons/main-logo.svg" alt="logo img">
+                </a>
+<div class="sm:block hidden max-[508px]">
+    <ul class="nav flex gap-[48px] items-center justify-between">
+        <li class="">
+            <a href="#" class="">Services</a>
+        </li>
+        <li class="">
+            <a href="#" class="">Why Us</a>
+        </li>
+        <li class="">
+            <a href="#" class="">Pricing</a>
+        </li>
+        <li class="">
+            <a href="#" class="">Review</a>
+        </li>
+        </ul>
+</div>
+                <button class="menyu sm:hidden">
+                    <img src="./images/icons/burger.svg" alt="menyu">
+                </button>
+            </div>
+        </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container mx-auto">
-                <div class="hero__inner"></div>
+        <section class="hero px-4">
+            <div class="container mx-auto max-w-[1440px] ">
+                <div class="hero__inner mt-[34px] flex flex-col items-center">
+                    <div class="hero__top w-[245px]  flex flex-col items-center justify-center">
+                        <h1 class="title text-[40px] text-[#282A2C] leading-[52px] font-semibold text-center">
+                            WordPress Solutions
+                        </h1>
+                        <!-- <span class="circle float-left ">
+                            <img src="./images/icons/circle.svg" alt="half circle" class="circle">
+                        </span> -->
+
+                        <span class="blue text-[40px] text-[#3A78F2] leading-[52px] font-semibold text-center">
+                            Delivered!
+                        </span>
+                        <p class="text w-[176px] font-normal text-[12px] leading-[18px] text-[#303E49] text-center">
+                            Amet minim mollit non
+                            deserunt ullamco est sit aliqua
+                            dolor do amet sint.
+                        </p>
+                    </div>
+                    <img src="./images/hero-mobile.png" alt="hero img" class="img ">
+                    <button
+                        class="button py-[14px] px-5 bg-[#3A78F2] flex items-center gap-[16.6px] rounded-[10px] text-[#F8F8F8]">
+                        Get Started
+                        <img src="./images/icons/arrow.svg" alt="arrow" class="arrow">
+                    </button>
+                    <button
+                        class="button mt-4 py-[14px] px-[30px] rounded-[10px] border-[1px] border-solid border-[#3A78F2] text-[#3A78F2]">
+                        Learn more
+                    </button>
+                    <div class="icons flex items-center justify-between w-[311px] mt-6">
+                        <img src="./images/icons/company-1.svg" alt="Uber Eats logo" class="w-[52px]">
+                        <img src="./images/icons/company-2.svg" alt="Slack logo" class="w-[48px]">
+                        <img src="./images/icons/company-3.svg" alt="Microsoft logo" class="w-[48px]">
+                        <img src="./images/icons/company-4.svg" alt="Ict Hub logo" class="w-[37px]">
+
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -62,8 +123,11 @@
 
     <footer class="footer">
         <div class="container mx-auto">
-            <div class="footer__inner"></div>
+            <div class="footer__inner">
+
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
